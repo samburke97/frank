@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://use.typekit.net/fpa0rix.css");
+
+/* Install Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Swiper */
+
+@font-face {
+  font-display: swap;
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-button-disabled {
+  color: #fdf0d5 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper-button-prev,
+  .swiper-button-next,
+  .swiper-button-disabled {
+    display: hidden;
+  }
+}
+
+.swiper-pagination-bullet-active,
+.swiper-pagination-bullet {
+  background-color: #fdf0d5 !important;
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https:/becausefrank.com/api/my-sitemap
