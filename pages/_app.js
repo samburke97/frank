@@ -20,7 +20,7 @@ const MyApp = ({ Component, pageProps }) => {
   }, [router.events]);
 
   useEffect(() => {
-    TagManager.initialize({ gtmId: "GTM-KGWNW9K" });
+//     TagManager.initialize({ gtmId: "REMOVED FOR PROTECTION" });
   }, []);
 
   return (
